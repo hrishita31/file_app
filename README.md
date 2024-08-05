@@ -26,7 +26,7 @@ the functionalities added are:
 -the service contains the main business logic
 -the infra contains the code for connection to redis
 -the docker compose file contains the file for hosting redis via docker
-
+-used cors middleware for cross origin of the ports of backend(:1323) and frontend(:5000)
 
 2)frontend:
 done using the npm framework of 'react+vite'
@@ -35,3 +35,4 @@ to install dependencies : installed npm and 'npm i' used to install dependencies
 -pages created like login, delete user, dashboard(where file handling takes place) and page not found
 -the .css files created for each of them
 -used react router for navigation of the pages (eg. from login to dashbord)
+(all th files that are outside the backend are for frontend, installing npm react+vite in necessary for running it)
